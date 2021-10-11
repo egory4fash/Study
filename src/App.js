@@ -1,18 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './header';
+import Techno from './techno';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        <div>ONE DIV</div>
-              <ul>
-                  <li>html</li>
-            <li>css</li>
-            <li>js</li>
-            <li>react</li>
-        </ul>
+    <div>
+        <Header />
+        <Techno />
     </div>
   );
 }
+
+
+
+
+
 
 export default App;
